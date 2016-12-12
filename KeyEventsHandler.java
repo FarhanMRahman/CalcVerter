@@ -127,7 +127,7 @@ public class KeyEventsHandler implements KeyListener{
 		
 		
 		
-		else if(e.getKeyCode() == KeyEvent.VK_PERIOD){
+		else if(e.getKeyCode() == KeyEvent.VK_DECIMAL){
 			if(!Calculator.clear){
 				String temp = MainPanel.calcTextPanel.getTextField().getText();
 				MainPanel.calcTextPanel.getTextField().setText(temp.concat("."));
