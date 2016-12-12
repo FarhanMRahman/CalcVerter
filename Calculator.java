@@ -139,6 +139,8 @@ public class Calculator extends JPanel implements ActionListener{
 		tan.setFocusable(false);
 		
 		backspace = new JButton("←");
+		ce.setBackground(Color.blue);
+		ce.setForeground(Color.white);
 		backspace.setFont(new Font("Arial", Font.BOLD, 20));
 		backspace.addActionListener(this);
 		backspace.setFocusable(false);
@@ -165,6 +167,8 @@ public class Calculator extends JPanel implements ActionListener{
 		
 		
 		ce = new JButton("CE");
+		ce.setBackground(Color.red);
+		ce.setForeground(Color.white);
 		ce.setFont(new Font("Arial", Font.BOLD, 20));
 		ce.addActionListener(this);
 		ce.setFocusable(false);
